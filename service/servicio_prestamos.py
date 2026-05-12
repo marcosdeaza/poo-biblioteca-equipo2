@@ -59,10 +59,9 @@ class ServicioPrestamos:
         return dias
 
     def reservar(self, id_usuario, id_material):
-        """Crea una reserva para un material que no está disponible"""
+        """Crea una reserva para un material"""
+        usuario = self._repo_usuarios.obtener(id_usuario)
         material = self._repo_materiales.obtener(id_material)
-        if material.disponible:
-            raise Exception(f"El material con ID {id_material} está disponible, no se puede reservar.")
 
         nuevo_id = f"V{len(self._repo_prestamos.listar_reservas()) + 1:04d}"  # Genera un ID único para la reserva
         reserva = Reserva(nuevo_id, id_usuario, id_material)  #la fecha se asigna internamente
