@@ -1,0 +1,36 @@
+[
+    {
+        "id_usuario": "U001",
+        "nombre": "Laura Fernandez",
+        "email": "laura.fernandez@correo.com",
+        "tipo": "Socio",
+        "sancionado": false,
+        "fecha_fin_sancion": null,
+        "prestamos_activos": ["P0001"]
+    },
+    {
+        "id_usuario": "U002",
+        "nombre": "Carlos Ruiz",
+        "email": "carlos.ruiz@correo.com",
+        "tipo": "Socio",
+        "sancionado": false,
+        "fecha_fin_sancion": null,
+        "prestamos_activos": []
+    },
+    {
+        "id_usuario": "U003",
+        "nombre": "Marta Lopez",
+        "email": "marta.lopez@correo.com",
+        "tipo": "Socio",
+        "sancionado": true,
+        "fecha_fin_sancion": "2026-05-15",
+        "prestamos_activos": []
+    },
+    {
+        "id_usuario": "B001",
+        "nombre": "Pedro Gomez",
+        "email": "pedro.gomez@biblioteca.com",
+        "tipo": "Bibliotecario",
+        "num_empleado": "EMP001"
+    }
+]

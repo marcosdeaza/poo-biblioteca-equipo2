@@ -1,0 +1,11 @@
+[
+    {
+        "id_prestamo": "P0001",
+        "id_usuario": "U001",
+        "id_material": "L003",
+        "fecha_prestamo": "2026-04-25",
+        "fecha_limite": "2026-05-09",
+        "fecha_devolucion": null,
+        "devuelto": false
+    }
+]

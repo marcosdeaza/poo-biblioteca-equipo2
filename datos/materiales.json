@@ -1,0 +1,57 @@
+[
+    {
+        "id_material": "L001",
+        "titulo": "El Quijote",
+        "autor": "Miguel de Cervantes",
+        "anio": 1605,
+        "disponible": true,
+        "tipo": "Libro",
+        "isbn": "978-84-376-0494-7",
+        "editorial": "Anaya",
+        "num_paginas": 863
+    },
+    {
+        "id_material": "L002",
+        "titulo": "Cien años de soledad",
+        "autor": "Gabriel Garcia Marquez",
+        "anio": 1967,
+        "disponible": true,
+        "tipo": "Libro",
+        "isbn": "978-84-397-2077-6",
+        "editorial": "Debolsillo",
+        "num_paginas": 471
+    },
+    {
+        "id_material": "L003",
+        "titulo": "Harry Potter y la piedra filosofal",
+        "autor": "J.K. Rowling",
+        "anio": 1997,
+        "disponible": false,
+        "tipo": "Libro",
+        "isbn": "978-84-9838-017-5",
+        "editorial": "Salamandra",
+        "num_paginas": 264
+    },
+    {
+        "id_material": "R001",
+        "titulo": "National Geographic",
+        "autor": "Varios autores",
+        "anio": 2024,
+        "disponible": true,
+        "tipo": "Revista",
+        "numero_edicion": 312,
+        "mes_publicacion": "marzo",
+        "issn": "0027-9358"
+    },
+    {
+        "id_material": "D001",
+        "titulo": "Python para principiantes",
+        "autor": "Eric Matthes",
+        "anio": 2023,
+        "disponible": true,
+        "tipo": "RecursoDigital",
+        "url": "https://biblioteca.ejemplo.com/python-principiantes.pdf",
+        "formato": "pdf",
+        "tamanio_mb": 12.5
+    }
+]

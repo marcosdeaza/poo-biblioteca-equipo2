@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Configuración de entorno
+.env
+
+# macOS
+.DS_Store
+
+# Distribución / empaquetado
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
